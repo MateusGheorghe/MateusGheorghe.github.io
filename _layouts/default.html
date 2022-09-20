@@ -78,66 +78,13 @@
       <body>
         <nav>
           <ul>
-            
-            <li><a class="active" href="/">About Me</a></li>
-            
-            <li><a class="" href="/publications/">Publications</a></li>
-            
-            <li><a class="" href="/projects/">Projects</a></li>
-            
-            <li><a class="" href="/work_experience/">Work Experience</a></li>
-            
+            {% for item in site.data.menu %}
+            <li><a class="{% if page.url == item.link %}active{% endif %}" href="{{item.link}}">{{item.title}}</a></li>
+            {% endfor %}
           </ul>
         </nav>
     
-        <h1 id="about_me">About me</h1>
-
-<p>Hello! My name is Mateus Gheorghe de Castro Ribeiro. I am a Brazilian mechanical engineer ⚙️ heading for a doctoral degree at Stanford University🌲 in the Fall of 2022 👨‍🔬. Nice to have you here on my website 😀</p>  
-<p>My passion is to leverage artificial intelligence and engineering to contribute to a better world via research 🌎👨‍💻💡</p>  
-<p> During my career, I have worked on themes that included fuzzy logic systems ✨, ultrasonic waves 🔉, signal processing 🖥️, and Structural Health Monitoring 📌</p>  
-<p> Feel free to contact me! <a href = "mailto: mateusgh@stanford.edu"> Send Email 📨</a> </p> 
-<p> Check my CV (last update September 2022) <a href="CV/CV_Mateus_Gheorghe_de_Castro_Ribeiro_Sep_2022.pdf" target="_blank">here 📄</a></p> 
-
-<hr>
-<h1 id="education">Education</h1>
-
-<table style="width:100%;border:0px;border-spacing:0px;border-collapse:separate;margin-right:auto;margin-left:auto;background-color:white;">
-  <tbody>
-    <td style="text-align:center;padding:0px;width:25%;vertical-align:middle;background-color:white;">
-      <img src='../Images/Logo_Stanford.png' width="100">
-  </td>
-  
-  <td style="padding:0px;width:100%;vertical-align:middle;background-color:white;">
-    <h3>Stanford University, Stanford CA, United States</h3>
-    2022 - Current <br>
-    Ph.D. in Civil and Environmental Engineering - Sustainable Design and Construction <br>
-    FULBRIGHT / CAPES - Scholarship award
-  </td>
-  <tr>
-    <td style="text-align:center;padding:0px;width:25%;vertical-align:middle;background-color:white;">
-        <img src='../Images/Logo_PUC.png' width="80">
-    </td>
-    
-    <td style="padding:0px;width:100%;vertical-align:middle;background-color:white;">
-      <h3>Pontifical Catholic University of Rio de Janeiro, Rio de Janeiro, Brazil</h3>
-      2019 - 2020 <br>
-      M.Sc. in Mechanical Engineering - Applied Mechanics <br>
-      Supervisors: <a href="https://helonayala.github.io/"> Prof. Helon Ayala</a> and <a href="http://www.cpti.cetuc.puc-rio.br/~kubrusly/">Prof. Alan Kubrusly</a> <br>
-    </td>
-  </tr>
-    <tr>
-      <td style="text-align:center;padding:0px;width:25%;vertical-align:middle;background-color:white;">
-          <img src='../Images/Logo_UFJF.jpg' width="130" >
-      </td>
-      <td style="padding:0px;width:100%;vertical-align:middle;background-color:white;">
-        <h3>Federal University of Juiz de Fora, Juiz de Fora, Brazil</h3>
-        2014 - 2018 <br>
-        B.Sc. in Mechanical Engineering <br>
-      </td>
-      </tr>
-  </tbody>
-</table>
-<br>
+        {{content}}
     
         <style>
           nav ul {
