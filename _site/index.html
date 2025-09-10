@@ -1,187 +1,756 @@
 <!doctype html>
-
-<!-- Begin Jekyll SEO tag v2.8.0 -->
-<title>MateusGheorghe.github.io | Personal Website</title>
-<meta name="generator" content="Jekyll v3.9.2" />
-<meta property="og:title" content="MateusGheorghe.github.io" />
-<meta property="og:locale" content="en_US" />
-<meta name="description" content="Personal Website" />
-<meta property="og:description" content="Personal Website" />
-<link rel="canonical" href="http://localhost:4000/" />
-<meta property="og:url" content="http://localhost:4000/" />
-<meta property="og:site_name" content="MateusGheorghe.github.io" />
-<meta property="og:type" content="website" />
-<meta name="twitter:card" content="summary" />
-<meta property="twitter:title" content="MateusGheorghe.github.io" />
-<script type="application/ld+json">
-{"@context":"https://schema.org","@type":"WebSite","description":"Personal Website","headline":"MateusGheorghe.github.io","name":"MateusGheorghe.github.io","url":"http://localhost:4000/"}</script>
-<!-- End Jekyll SEO tag -->
-
-    <link rel="stylesheet" href="/assets/css/style.css?v=f2f681397aac29db1181cbca638829f92c120c74">
-    <script src="/assets/js/scale.fix.js"></script>
-    <meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no">
-    <!-- Add icon library -->
-    <!-- font-awesome -->
-    <link href="//maxcdn.bootstrapcdn.com/font-awesome/4.2.0/css/font-awesome.min.css" rel="stylesheet">
-    <!-- Academicons https://jpswalsh.github.io/academicons/ -->
-    <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/jpswalsh/academicons/css/academicons.min.css">
-    <!--[if lt IE 9]>
-    <script src="//html5shiv.googlecode.com/svn/trunk/html5.js"></script>
-    <![endif]-->
-    <!-- start custom head snippets, customize with your own _includes/head-custom.html file -->
-
-<!-- Setup Google Analytics -->
-
-
-
-<!-- You can set your favicon here -->
-<!-- link rel="shortcut icon" type="image/x-icon" href="/favicon.ico" -->
-
-<!-- end custom head snippets -->
-
-  </head>
-  <body>
-    <div class="wrapper">
-      <header>
-        <h1 class="header">Mateus Gheorghe de Castro Ribeiro</h1>
-        <p class="header">PhD Student </p>
-        
-        <a href="https://scholar.google.com/citations?user=98Ep-rgAAAAJ&hl=en&oi=ao" target="_blank"><i class="ai ai-google-scholar-square ai-2x"></i></a>
-        <a href="https://www.researchgate.net/profile/Mateus-Gheorghe-Ribeiro" target="_blank"><i class="ai ai-researchgate-square ai-2x"></i></a>
-        <a href="http://lattes.cnpq.br/4199966845087655" target="_blank"><i class="ai ai-lattes-square ai-2x"></i></a>
-        <a href="https://www.linkedin.com/in/mateus-gheorghe-de-castro-ribeiro/" target="_blank"><i class="fa fa-linkedin-square fa-2x"></i></a>
-        
-
-        <!-- <ul> -->
-          
-          <!-- <li><a class="buttons github" href="https://github.com/MateusGheorghe/MateusGheorghe.github.io">View Website On GitHub</a></li> -->
-        <!-- </ul> -->
-
-        
-          <!-- <p class="header">This website is maintained by <a class="header name" href="https://github.com/MateusGheorghe">MateusGheorghe</a></p> -->
-          <p class="header">This website is maintained by: </p>
-          <!-- <ul> -->
-            <li><a class="buttons github" href="https://github.com/MateusGheorghe/" target="_blank" >MateusGheorghe</a></li>
-          <!-- </ul> -->
-          
-      </header>
-
-<section>
-<h1 id="menu"></h1>
-
+<html lang="en" class="scroll-smooth">
 <head>
-    <meta charset="utf-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-        <title>Document</title>
-      </head>
-      <body>
-        <nav>
-          <ul>
-            
-            <li><a class="active" href="/">About Me</a></li>
-            
-            <li><a class="" href="/publications/">Publications</a></li>
-            
-            <li><a class="" href="/projects/">Projects</a></li>
-            
-            <li><a class="" href="/work_experience/">Work Experience</a></li>
-            
-          </ul>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Mateus G. de Castro Ribeiro — Energy Systems & Optimization</title>
+  <meta name="description" content="PhD researcher in energy systems and optimization. Microgrids, 24/7 carbon‑free energy, battery dispatch, and resilient campus/fleet/community design." />
+
+  <!-- Open Graph / Twitter -->
+  <meta property="og:title" content="Mateus G. de Castro Ribeiro — Energy Systems & Optimization" />
+  <meta property="og:description" content="Microgrids • 24/7 CFE • Battery Dispatch • Optimization & ML" />
+  <meta property="og:type" content="website" />
+  <meta property="og:url" content="https://mateusgheorghe.github.io" />
+  <meta property="og:image" content="Images/mgcr_profile.jpg" />
+  <meta name="twitter:card" content="summary_large_image" />
+
+  <!-- Tailwind Play CDN (no build step) -->
+  <script src="https://cdn.tailwindcss.com"></script>
+  <script>
+    tailwind.config = {
+      darkMode: 'class',
+      theme: {
+        extend: {
+          fontFamily: {
+            display: ['Inter', 'ui-sans-serif', 'system-ui', 'sans-serif'],
+            body: ['Inter', 'ui-sans-serif', 'system-ui', 'sans-serif'],
+          },
+          boxShadow: {
+            soft: '0 10px 30px rgba(2, 6, 23, 0.08)'
+          }
+        }
+      }
+    }
+  </script>
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet">
+
+  <style>
+    :root { color-scheme: light dark; }
+    html { scroll-padding-top: 84px; }
+  </style>
+
+  <!-- Structured Data -->
+  <script type="application/ld+json">
+  {
+    "@context": "https://schema.org",
+    "@type": "Person",
+    "name": "Mateus Gheorghe de Castro Ribeiro",
+    "url": "https://mateusgheorghe.github.io",
+    "sameAs": [
+      "https://scholar.google.com/",
+      "https://www.linkedin.com/",
+      "https://github.com/MateusGheorghe"
+    ],
+    "jobTitle": "PhD Researcher",
+    "affiliation": {
+      "@type": "CollegeOrUniversity",
+      "name": "Stanford University"
+    }
+  }
+  </script>
+</head>
+<body class="font-body bg-white text-slate-900 dark:bg-slate-950 dark:text-slate-100">
+  <!-- Header -->
+  <header class="fixed top-0 inset-x-0 z-50 backdrop-blur bg-white/75 dark:bg-slate-950/60 border-b border-slate-200/70 dark:border-slate-800">
+    <div class="mx-auto max-w-6xl px-4">
+      <div class="flex h-16 items-center justify-between">
+        <a href="#home" class="flex items-center gap-2 font-semibold tracking-tight">
+        <img
+          src="/Images/mgcr_profile.jpg"
+          alt="Mateus G. de Castro Ribeiro"
+          class="h-8 w-8 rounded-full object-cover ring-1 ring-slate-200 dark:ring-slate-800"
+          width="64" height="64" loading="lazy" decoding="async"
+          srcset="/Images/mgcr_profile.jpg 1x, /Images/mgcr_profile@2x.jpg 2x"
+        />
+        <span class="hidden sm:inline">Mateus G. de Castro Ribeiro</span>
+        <span class="sm:hidden">Mateus G. Ribeiro</span>
+      </a>
+        <nav class="hidden md:flex items-center gap-6 text-sm font-medium">
+          <a class="hover:text-blue-600" href="#research">Research</a>
+          <a class="hover:text-blue-600" href="#projects">Projects</a>
+          <a class="hover:text-blue-600" href="#publications">Publications</a>
+          <a class="hover:text-blue-600" href="#cv">CV & Experience</a>
+          <a class="hover:text-blue-600" href="#contact">Contact</a>
         </nav>
-    
-        <h1 id="about_me">About me</h1>
-
-<p> Hello! My name is Mateus Gheorghe de Castro Ribeiro, I am a PhD student in the <a href="https://ramr.sites.stanford.edu/lab-members" target="_blank">Stanford Sustainable Systems Lab (S3L) </a>  at Stanford University 🌲.</p>
- 
-<p> Welcome to my website! 😀 </p>
-
-<p> I am passionate about leveraging artificial intelligence and engineering to drive research that contributes to a better world 🌎👨‍💻💡</p>
-
-<p> Throughout my career, I have explored diverse topics, including fuzzy logic systems ✨, ultrasonic waves 🔉, signal processing 🖥️, and Structural Health Monitoring 📌</p>
-
-<p> Currently, my research focuses on AI-driven solutions for sustainable energy systems, particularly machine learning applications to optimize the integration of renewables 🌤, storage 🔋, electric vehicles 🚙, and charging infrastructure ⚡ </p>
-
-<p> Feel free to contact me! <a href = "mailto: mateusgh@stanford.edu" target="_blank"> Send Email 📨</a> </p>
-
-<p> Check my CV (last update March 2025) <a href="CV/CV_Mateus_Gheorghe_de_Castro_Ribeiro_Mar_2025.pdf" target="_blank">here 📄</a></p>
-
-<hr>
-<h1 id="education">Education</h1>
-
-<table style="width:100%;border:0px;border-spacing:0px;border-collapse:separate;margin-right:auto;margin-left:auto;background-color:white;">
-  <tbody>
-    <td style="text-align:center;padding:0px;width:25%;vertical-align:middle;background-color:white;">
-      <img src='../Images/Logo_Stanford.png' width="100">
-  </td>
-  
-  <td style="padding:0px;width:100%;vertical-align:middle;background-color:white;">
-    <h3>Stanford University, Stanford CA, United States</h3>
-    2022 - Current <br>
-    Ph.D. in Civil and Environmental Engineering - Sustainable Design and Construction <br>
-    FULBRIGHT / CAPES - Scholarship award <br>
-    Supervisor: <a href="https://ramr.sites.stanford.edu/people/ram-rajagopal" target="_blank">Prof. Ram Rajagopal</a><br>  </td>
-  </td>
-  <tr>
-    <td style="text-align:center;padding:0px;width:25%;vertical-align:middle;background-color:white;">
-        <img src='../Images/Logo_PUC.png' width="80">
-    </td>
-    
-    <td style="padding:0px;width:100%;vertical-align:middle;background-color:white;">
-      <h3>Pontifical Catholic University of Rio de Janeiro, Rio de Janeiro, Brazil</h3>
-      2019 - 2020 <br>
-      M.Sc. in Mechanical Engineering - Applied Mechanics <br>
-      Supervisors: <a href="https://helonayala.github.io/" target="_blank"> Prof. Helon Ayala</a> and <a href="http://www.cpti.cetuc.puc-rio.br/~kubrusly/" target="_blank">Prof. Alan Kubrusly</a> <br>
-    </td>
-  </tr>
-    <tr>
-      <td style="text-align:center;padding:0px;width:25%;vertical-align:middle;background-color:white;">
-          <img src='../Images/Logo_UFJF.jpg' width="130" >
-      </td>
-      <td style="padding:0px;width:100%;vertical-align:middle;background-color:white;">
-        <h3>Federal University of Juiz de Fora, Juiz de Fora, Brazil</h3>
-        2014 - 2018 <br>
-        B.Sc. in Mechanical Engineering <br>
-      </td>
-      </tr>
-  </tbody>
-</table>
-<br>
-    
-        <style>
-          nav ul {
-            display: flex;
-            list-style: none;
-          }
-          nav ul li {
-            margin-right: 10px;
-          }
-          nav ul li a {
-            text-decoration: none;
-            color: black;
-          }
-          nav ul li a:hover {
-            text-decoration: underline;
-          }
-          .active {
-            text-decoration: underline;
-          }
-        </style>
-      </body>
-
-
-
-      </section>
-      <footer>
-        <p><small>Hosted on <a href="https://pages.github.com">GitHub Pages</a> using the Dinky theme</small></p>
-        <p style="margin-bottom:0;"><small>Last update:</small></p>
-        <font size="1"><script> document.write( document.lastModified ); </script></font>
-      </footer>
+        <div class="flex items-center gap-2">
+          <button id="themeToggle" class="rounded-xl border border-slate-200 dark:border-slate-800 p-2 hover:bg-slate-100 dark:hover:bg-slate-900" aria-label="Toggle dark mode">
+            <!-- sun/moon icons -->
+            <svg id="sun" class="h-5 w-5 hidden dark:block" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5"><path d="M12 3v2m0 14v2M4.22 4.22l1.42 1.42M18.36 18.36l1.42 1.42M3 12h2m14 0h2M4.22 19.78l1.42-1.42M18.36 5.64l1.42-1.42"/><circle cx="12" cy="12" r="4"/></svg>
+            <svg id="moon" class="h-5 w-5 dark:hidden" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5"><path d="M21 12.79A9 9 0 1 1 11.21 3 7 7 0 0 0 21 12.79Z"/></svg>
+          </button>
+          <button id="menuBtn" class="md:hidden rounded-xl border border-slate-200 dark:border-slate-800 p-2 hover:bg-slate-100 dark:hover:bg-slate-900" aria-expanded="false" aria-controls="mobileNav" aria-label="Open menu">
+            <svg class="h-5 w-5" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5"><path d="M4 6h16M4 12h16M4 18h16"/></svg>
+          </button>
+        </div>
+      </div>
     </div>
-    <!--[if !IE]><script>fixScale(document);</script><![endif]-->
-  </body>
+    <div id="mobileNav" class="md:hidden hidden border-t border-slate-200 dark:border-slate-800">
+      <nav class="mx-auto max-w-6xl px-4 py-3 grid gap-2 text-sm font-medium">
+        <a class="py-1" href="#research">Research</a>
+        <a class="py-1" href="#projects">Projects</a>
+        <a class="py-1" href="#publications">Publications</a>
+        <a class="py-1" href="#cv">CV & Experience</a>
+        <a class="py-1" href="#contact">Contact</a>
+      </nav>
+    </div>
+  </header>
+
+  <!-- Hero -->
+  <section id="home" class="pt-28 md:pt-32 pb-8">
+    <div class="mx-auto max-w-6xl px-4 grid md:grid-cols-2 gap-10 items-center">
+      <div>
+        <h1 class="font-display text-3xl sm:text-4xl md:text-5xl font-bold leading-tight tracking-tight">
+          Energy Systems • EVs • Microgrids • Optimization & ML
+        </h1>
+        <p class="mt-4 text-slate-600 dark:text-slate-300 max-w-prose">
+        Welcome! I am a PhD candidate at Stanford University in the
+        <a href="https://s3l.stanford.edu/" target="_blank" rel="noopener noreferrer" class="underline decoration-slate-400 hover:decoration-slate-600">
+          Stanford Sustainable Systems Lab (S3L)
+        </a>, passionate about leveraging artificial intelligence and engineering to drive research that contributes to a better world 🌎👨‍💻💡
+        </p>
+        <div class="mt-6 flex flex-wrap gap-3">
+          <a href="#projects" class="inline-flex items-center gap-2 rounded-xl bg-blue-600 px-4 py-2 text-white shadow-soft hover:bg-blue-700">
+            View Projects
+          </a>
+          <a href="#publications" class="inline-flex items-center gap-2 rounded-xl border border-slate-200 dark:border-slate-800 px-4 py-2 hover:bg-slate-100 dark:hover:bg-slate-900">
+            Publications
+          </a>
+          <a href="#cv" class="inline-flex items-center gap-2 rounded-xl border border-slate-200 dark:border-slate-800 px-4 py-2 hover:bg-slate-100 dark:hover:bg-slate-900">
+            CV & Experience
+          </a>
+        </div>
+        <div class="mt-6 flex items-center gap-4 text-sm">
+          <a class="inline-flex items-center gap-2 hover:underline" href="https://github.com/MateusGheorghe" target="_blank" rel="noreferrer">
+            <!-- GitHub icon -->
+            <svg class="h-5 w-5" viewBox="0 0 24 24" fill="currentColor"><path d="M12 2C6.48 2 2 6.58 2 12.26c0 4.52 2.87 8.35 6.84 9.71.5.1.68-.22.68-.49 0-.24-.01-.87-.01-1.7-2.78.62-3.37-1.37-3.37-1.37-.45-1.18-1.1-1.5-1.1-1.5-.9-.63.07-.62.07-.62 1 .07 1.52 1.05 1.52 1.05.89 1.56 2.33 1.11 2.9.85.09-.66.35-1.11.63-1.36-2.22-.26-4.56-1.14-4.56-5.08 0-1.12.39-2.03 1.03-2.75-.1-.26-.45-1.31.1-2.73 0 0 .84-.27 2.75 1.05A9.3 9.3 0 0 1 12 7.5c.86 0 1.73.12 2.54.35 1.9-1.32 2.74-1.05 2.74-1.05.55 1.42.2 2.47.1 2.73.64.72 1.03 1.63 1.03 2.75 0 3.95-2.34 4.81-4.57 5.07.36.32.67.95.67 1.92 0 1.39-.01 2.51-.01 2.85 0 .27.18.59.69.49A10.05 10.05 0 0 0 22 12.26C22 6.58 17.52 2 12 2Z"/></svg>
+            GitHub
+          </a>
+          <a class="inline-flex items-center gap-2 hover:underline" href="https://scholar.google.com/citations?user=98Ep-rgAAAAJ&hl=en" target="_blank" rel="noreferrer">
+            <!-- Scholar icon (book) -->
+            <svg class="h-5 w-5" viewBox="0 0 24 24" fill="currentColor"><path d="M3 5a2 2 0 0 1 2-2h9a3 3 0 0 1 3 3v13.5a.5.5 0 0 1-.79.41L12 17l-4.21 3.91A.5.5 0 0 1 7 19.5V6a1 1 0 0 0-1-1H3Z"/><path d="M19 7h2v12h-2z"/></svg>
+            Google Scholar
+          </a>
+          <a class="inline-flex items-center gap-2 hover:underline" href="https://www.linkedin.com/in/mateus-gheorghe-de-castro-ribeiro/" target="_blank" rel="noreferrer">
+            <!-- LinkedIn icon -->
+            <svg class="h-5 w-5" viewBox="0 0 24 24" fill="currentColor"><path d="M4.98 3.5C4.98 4.88 3.86 6 2.5 6S0 4.88 0 3.5 1.12 1 2.5 1s2.48 1.12 2.48 2.5ZM.5 8.5h4V24h-4V8.5Zm7 0h3.8v2.1h.1c.53-1 1.83-2.1 3.77-2.1C20.57 8.5 22 11 22 14.66V24h-4v-7.75c0-1.85-.03-4.23-2.58-4.23-2.58 0-2.98 2.02-2.98 4.1V24h-4V8.5Z"/></svg>
+            LinkedIn
+          </a>
+        </div>
+      </div>
+      <div class="relative">
+          <div class="aspect-square overflow-hidden rounded-3xl shadow-soft">
+      <img
+        src="Images/mgcr_profile.jpg"
+        alt="Mateus G. de Castro Ribeiro"
+        class="w-full h-full object-cover"
+        loading="lazy"
+        width="800" height="800"
+      />
+    </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Research focus -->
+  <section id="research" class="py-12 border-t border-slate-200/70 dark:border-slate-800">
+    <div class="mx-auto max-w-6xl px-4">
+      <h2 class="text-2xl md:text-3xl font-bold tracking-tight">Research focus</h2>
+      <p class="mt-3 text-slate-600 dark:text-slate-300 max-w-3xl">AI for sustainable energy systems (EVs & microgrids), with a focus on resilience and flexibility. </p>
+      <div class="mt-6 grid gap-4 sm:grid-cols-2 lg:grid-cols-3">
+        <div class="rounded-2xl p-5 border border-slate-200 dark:border-slate-800 bg-white/50 dark:bg-slate-900/30">
+          <h3 class="font-semibold">Electric Vehicle </h3>
+          <p class="text-sm mt-2">Electric bus fleets; PV, batteries & carbon-free charging; Vehicle-to-grid (V2G); Optimization & RL-based methods</p>
+        </div>
+        <div class="rounded-2xl p-5 border border-slate-200 dark:border-slate-800 bg-white/50 dark:bg-slate-900/30">
+          <h3 class="font-semibold">Microgrids</h3>
+          <p class="text-sm mt-2"> Co-optimize energy cost & resilience; Thermal generators, batteries, solar PV; Load flexibility & prioritization; Inter‑zonal coordination (centralized & distributed)</p>
+<!--        </div>-->
+<!--        <div class="rounded-2xl p-5 border border-slate-200 dark:border-slate-800 bg-white/50 dark:bg-slate-900/30">-->
+<!--          <h3 class="font-semibold">Third Theme</h3>-->
+<!--          <p class="text-sm mt-2">...</p>-->
+<!--        </div>-->
+<!--      </div>-->
+    </div>
+  </section>
+
+  <!-- Projects -->
+  <section id="projects" class="py-12">
+    <div class="mx-auto max-w-6xl px-4">
+      <div class="flex items-end justify-between gap-4">
+        <h2 class="text-2xl md:text-3xl font-bold tracking-tight">Featured projects</h2>
+<!--        <a href="/projects.html" class="text-sm text-blue-600 hover:underline">See all</a>-->
+      </div>
+      <div class="mt-6 grid gap-6 md:grid-cols-2 lg:grid-cols-3">
+        <!-- Project Card 1 -->
+        <article class="rounded-2xl border border-slate-200 dark:border-slate-800 overflow-hidden bg-white/60 dark:bg-slate-900/40 hover:shadow-soft transition">
+          <div class="relative aspect-[16/9] overflow-hidden bg-slate-100">
+            <img
+              src="/Images/24_7_project.png"
+              alt="24/7 CFE project"
+              class="absolute inset-0 w-full h-full object-contain"
+              loading="lazy"
+              width="1600" height="900" decoding="async"
+            />
+          </div>
+          <div class="p-5">
+            <h3 class="font-semibold">24/7 Carbon-Free Campus-Fleet</h3>
+            <p class="mt-2 text-sm text-slate-600 dark:text-slate-300">
+              Stanford has completed the transition to 100 percent renewable electricity in March 2022, with on- and off-campus renewable electricity generation exceeding campus consumption on an annual basis. However, the campus is still plugged into the grid which carries carbon-based electricity. To completely eliminate emissions, Stanford’s next challenge is to match its electricity consumption with carbon-free resources at all hours of the year. To begin, this project will demonstrate a 24/7 Carbon-Free Electrified Stanford Campus Fleet by developing a scalable platform that intelligently coordinates solar, storage, electric bus route assignments, and bus charging. Additionally, the platform also optimizes for minimizing energy costs, providing system resiliency, and uniformly distributing vehicle utilization. This platform also serves as the first transferable model for bus fleets in school districts, corporate campuses, and municipalities to become 24/7 carbon-free.
+            </p>
+            <div class="mt-4">
+              <a
+                href="https://s3l.stanford.edu/24-7-campus-buses"
+                class="inline-flex items-center gap-2 rounded-xl bg-blue-600 px-3 py-2 text-white text-sm hover:bg-blue-700 focus:outline-none focus:ring-2 focus:ring-blue-500"
+                target="_blank"
+                rel="noopener noreferrer"
+                aria-label="Visit project website (opens in a new tab)"
+              >
+                Visit project website
+                <svg class="h-4 w-4" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                  <path d="M7 17L17 7M7 7h10v10" />
+                </svg>
+              </a>
+            </div>
+          </div>
+        </article>
+
+        <!-- Project Card 2 -->
+        <article class="rounded-2xl border border-slate-200 dark:border-slate-800 overflow-hidden bg-white/60 dark:bg-slate-900/40 hover:shadow-soft transition">
+<!--          <div class="h-36 bg-gradient-to-br from-emerald-500 to-teal-600"></div>-->
+          <div class="relative aspect-[16/9] overflow-hidden bg-slate-100">
+            <img
+              src="/Images/plnb.jpg"
+              alt="HMARS project"
+              class="absolute inset-0 w-full h-full object-contain"
+              loading="lazy"
+            />
+          </div>
+          <div class="p-5">
+            <h3 class="font-semibold">Hierarchical microgrid for advanced power system resilience and reliability</h3>
+            <p class="mt-2 text-sm text-slate-600 dark:text-slate-300"> Military bases face a critical need for energy resilience, ensuring the capability to independently power essential loads for 30 days or more during natural disasters, wartime attacks, or other grid outage events. We are developing a software-driven, zonal, modular microgrid solution that delivers resilient power to military bases while achieving economic benefits through demand reduction, load prioritization, and operational flexibility</p>
+            <div class="mt-4">
+              <a
+                href="https://sustainability-accelerator.stanford.edu/hierarchical-microgrid-advanced-power-system-resilience-and-reliability"
+                class="inline-flex items-center gap-2 rounded-xl bg-blue-600 px-3 py-2 text-white text-sm hover:bg-blue-700 focus:outline-none focus:ring-2 focus:ring-blue-500"
+                target="_blank"
+                rel="noopener noreferrer"
+                aria-label="Visit project website (opens in a new tab)"
+              >
+                Visit project website
+                <svg class="h-4 w-4" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                  <path d="M7 17L17 7M7 7h10v10" />
+                </svg>
+              </a>
+            </div>
+          </div>
+        </article>
+<!--        &lt;!&ndash; Project Card 3 &ndash;&gt;-->
+<!--        <article class="rounded-2xl border border-slate-200 dark:border-slate-800 overflow-hidden bg-white/60 dark:bg-slate-900/40 hover:shadow-soft transition">-->
+<!--&lt;!&ndash;          <div class="h-36 bg-gradient-to-br from-fuchsia-500 to-purple-600"></div>&ndash;&gt;-->
+<!--          <div class="relative aspect-[16/9] overflow-hidden bg-slate-100">-->
+<!--            <img-->
+<!--              src="/Images/MultiStringCementQuality.png"-->
+<!--              alt="TTiLT project"-->
+<!--              class="absolute inset-0 w-full h-full object-contain"-->
+<!--              loading="lazy"-->
+<!--            />-->
+<!--          </div>-->
+<!--          <div class="p-5">-->
+<!--            <h3 class="font-semibold">Through-Tubing Logging Tool for Cement Quality Evaluation in Multistring Wells</h3>-->
+<!--            <p class="mt-2 text-sm text-slate-600 dark:text-slate-300">Plug & abandonment operations are an essential step in the life of an oil well. Focusing on these operations, this project aimed to propose a tool and/or method to assess cement quality through oil wells composed of multiple casing strings. The project used different approaches, such as exploring experimental laboratory benches, investigating numerical simulations in different relevant finite element method software, and using analytical solutions jointly with machine learning adoption.</p>-->
+<!--            <div class="mt-3 flex flex-wrap gap-2 text-xs">-->
+<!--              <span class="rounded-full bg-slate-100 dark:bg-slate-800 px-2 py-1">MATLAB</span>-->
+<!--&lt;!&ndash;              <span class="rounded-full bg-slate-100 dark:bg-slate-800 px-2 py-1"></span>&ndash;&gt;-->
+<!--&lt;!&ndash;              <span class="rounded-full bg-slate-100 dark:bg-slate-800 px-2 py-1"></span>&ndash;&gt;-->
+<!--            </div>-->
+<!--          </div>-->
+<!--        </article>-->
+      </div>
+    </div>
+  </section>
+
+  <!-- Publications -->
+  <section id="publications" class="py-12 border-t border-slate-200/70 dark:border-slate-800">
+    <div class="mx-auto max-w-6xl px-4">
+      <div class="flex items-end justify-between gap-4">
+        <h2 class="text-2xl md:text-3xl font-bold tracking-tight">Publications</h2>
+        <div class="flex items-center gap-2">
+          <label for="pubFilter" class="text-sm text-slate-500">Filter</label>
+          <input id="pubFilter" type="search" placeholder="journal, patent, ..." class="rounded-xl border border-slate-200 dark:border-slate-700 bg-white/60 dark:bg-slate-900/30 px-3 py-2 text-sm outline-none focus:ring-2 focus:ring-blue-500"/>
+        </div>
+      </div>
+      <ul id="pubList" class="mt-6 grid gap-4"><li class="rounded-xl border border-slate-200 dark:border-slate-800 p-4 bg-white/60 dark:bg-slate-900/30"
+              data-tags=""
+              data-category="journal">
+            <div class="text-sm text-slate-500">
+              2025 — Journal
+            </div>
+
+            <div class="font-medium">Optimal coordination of electric buses and battery storage for achieving a 24/7 carbon-free electrified fleet</div><div class="text-sm mt-1">Luke, J.; Ribeiro, M. G. C.; Martin, S.; Balogun, E.; Cezar, G. V.; Pavone, M.; Rajagopal, R.</div><div class="text-sm mt-1 italic">Applied Energy</div><div class="mt-2 text-sm space-x-3"><a class="text-blue-600 hover:underline" href="https://doi.org/10.1016/j.apenergy.2024.124506" target="_blank" rel="noopener">DOI</a><a class="text-blue-600 hover:underline" href="https://www.sciencedirect.com/science/article/pii/S0306261924018890" target="_blank" rel="noopener">Link</a></div>
+          </li><li class="rounded-xl border border-slate-200 dark:border-slate-800 p-4 bg-white/60 dark:bg-slate-900/30"
+              data-tags=""
+              data-category="patent">
+            <div class="text-sm text-slate-500">
+              2025 — Patent
+            </div>
+
+            <div class="font-medium">Method to achieve 24/7 carbon-free electrified fleet operations</div><div class="text-sm mt-1">Rajagopal, Ram; Luke, Justin Ting Han; Ribeiro, Mateus Gheorghe De Castro; Cezar, Gustavo; Min, Liang</div><div class="mt-2 text-sm space-x-3"><a class="text-blue-600 hover:underline" href="https://image-ppubs.uspto.gov/dirsearch-public/print/downloadPdf/20250117720" target="_blank" rel="noopener">PDF</a><a class="text-blue-600 hover:underline" href="https://patents.justia.com/patent/20250117720" target="_blank" rel="noopener">Link</a></div>
+          </li><li class="rounded-xl border border-slate-200 dark:border-slate-800 p-4 bg-white/60 dark:bg-slate-900/30"
+              data-tags=""
+              data-category="journal">
+            <div class="text-sm text-slate-500">
+              2024 — Journal
+            </div>
+
+            <div class="font-medium">Supervised Machine Learning Models for Mechanical Properties Prediction in Additively Manufactured Composites</div><div class="text-sm mt-1">Prada Parra, D. P.; Ferreira, G. R. B.; Díaz, J. G.; Ribeiro, M. G. C.; Braga, A. M. B.</div><div class="text-sm mt-1 italic">Applied Sciences</div><div class="mt-2 text-sm space-x-3"><a class="text-blue-600 hover:underline" href="https://www.mdpi.com/2076-3417/14/16/7009/pdf?download=1" target="_blank" rel="noopener">PDF</a><a class="text-blue-600 hover:underline" href="https://doi.org/10.3390/app14167009" target="_blank" rel="noopener">DOI</a><a class="text-blue-600 hover:underline" href="https://www.mdpi.com/2076-3417/14/16/7009" target="_blank" rel="noopener">Link</a></div>
+          </li><li class="rounded-xl border border-slate-200 dark:border-slate-800 p-4 bg-white/60 dark:bg-slate-900/30"
+              data-tags=""
+              data-category="conference">
+            <div class="text-sm text-slate-500">
+              2023 — Conference
+            </div>
+
+            <div class="font-medium">Towards a 24/7 Carbon-Free Electric Fleet: A Digital Twin Framework</div><div class="text-sm mt-1">Ribeiro, M. G. C.; Luke, J.; Martin, S.; Balogun, E.; Cezar, G. V.; Pavone, M.; Rajagopal, R.</div><div class="text-sm mt-1 italic">International Conference on Applied Energy (ICAE)</div><div class="mt-2 text-sm space-x-3"><a class="text-blue-600 hover:underline" href="https://doi.org/10.46855/energy-proceedings-11033" target="_blank" rel="noopener">DOI</a><a class="text-blue-600 hover:underline" href="https://www.energy-proceedings.org/towards-a-24-7-carbon-free-electric-fleet%3A-a-digital-twin-framework/" target="_blank" rel="noopener">Link</a></div>
+          </li><li class="rounded-xl border border-slate-200 dark:border-slate-800 p-4 bg-white/60 dark:bg-slate-900/30"
+              data-tags=""
+              data-category="patent">
+            <div class="text-sm text-slate-500">
+              2023 — Patent
+            </div>
+
+            <div class="font-medium">Computing method for detecting and estimating cementing faults in oil well linings by acquiring acoustic profiling signals through the production tubing on the basis of machine learning and high-fidelity simulations</div><div class="text-sm mt-1">Ribeiro, M. G. C.; Ayala, H. V. H.; Kubrusly, A. C.; et al.</div><div class="mt-2 text-sm space-x-3"><a class="text-blue-600 hover:underline" href="https://patents.google.com/patent/WO2023039653A1/en.pdf" target="_blank" rel="noopener">PDF</a><a class="text-blue-600 hover:underline" href="https://patents.google.com/patent/WO2023039653A1/en" target="_blank" rel="noopener">Link</a></div>
+          </li><li class="rounded-xl border border-slate-200 dark:border-slate-800 p-4 bg-white/60 dark:bg-slate-900/30"
+              data-tags=""
+              data-category="journal">
+            <div class="text-sm text-slate-500">
+              2023 — Journal
+            </div>
+
+            <div class="font-medium">Machine learning-based evaluation of eccentricity and acoustic impedance in oil well using VDL data</div><div class="text-sm mt-1">Ribeiro, M. G. C.; Ferreira, G. R. B.; Parente, L. E. R.; Batista, J. H. G.; Kubrusly, A. C.; Ayala, H. V. H.; Braga, A. M. B.</div><div class="text-sm mt-1 italic">Geoenergy Science and Engineering</div><div class="mt-2 text-sm space-x-3"><a class="text-blue-600 hover:underline" href="https://doi.org/10.1016/j.geoen.2023.212288" target="_blank" rel="noopener">DOI</a><a class="text-blue-600 hover:underline" href="https://www.sciencedirect.com/science/article/pii/S2949891023008758" target="_blank" rel="noopener">Link</a></div>
+          </li><li class="rounded-xl border border-slate-200 dark:border-slate-800 p-4 bg-white/60 dark:bg-slate-900/30"
+              data-tags=""
+              data-category="journal">
+            <div class="text-sm text-slate-500">
+              2023 — Journal
+            </div>
+
+            <div class="font-medium">Machine learning-based cement integrity evaluation with a through-tubing logging experimental setup</div><div class="text-sm mt-1">de Souza, L. P. B.; Ferreira, G. R. B.; Camerini, I. G.; de Magalhães Correia, T.; Ribeiro, M. G. C.; Hidalgo, J. A. S.; ...; Batista, J. H. G.</div><div class="text-sm mt-1 italic">Geoenergy Science and Engineering</div><div class="mt-2 text-sm space-x-3"><a class="text-blue-600 hover:underline" href="https://doi.org/10.1016/j.geoen.2023.211882" target="_blank" rel="noopener">DOI</a><a class="text-blue-600 hover:underline" href="https://www.sciencedirect.com/science/article/pii/S2949891023004694" target="_blank" rel="noopener">Link</a></div>
+          </li><li class="rounded-xl border border-slate-200 dark:border-slate-800 p-4 bg-white/60 dark:bg-slate-900/30"
+              data-tags=""
+              data-category="patent">
+            <div class="text-sm text-slate-500">
+              2022 — Patent
+            </div>
+
+            <div class="font-medium">Plataforma Computacional com Interface Gráfica Baseada em Aprendizado de Máquina Ativo para a Visualização, Inferência e Interpretação Assistida de Dados Obtidos em Operações de Perfilagem do Cimento em Poços de Petróleo e Gás e Método de sua Utilização</div><div class="text-sm mt-1">Ribeiro, M. G. C.; Ferreira, G. R. B.; Ayala, H. V. H.; et al.</div><div class="mt-2 text-sm space-x-3"></div>
+          </li><li class="rounded-xl border border-slate-200 dark:border-slate-800 p-4 bg-white/60 dark:bg-slate-900/30"
+              data-tags=""
+              data-category="journal">
+            <div class="text-sm text-slate-500">
+              2022 — Journal
+            </div>
+
+            <div class="font-medium">Type-1 and Singleton Fuzzy Logic System Binary Classifier Trained by the BFGS Optimization Method</div><div class="text-sm mt-1">Calderano, P. H. S.; Ribeiro, M. G. C.; Teixeira, R. S.; Amaral, R. P. F.; de Menezes, I. F. M.</div><div class="text-sm mt-1 italic">Fuzzy Optimization and Decision Making</div><div class="mt-2 text-sm space-x-3"><a class="text-blue-600 hover:underline" href="https://doi.org/10.1007/s10700-022-09387-y" target="_blank" rel="noopener">DOI</a><a class="text-blue-600 hover:underline" href="https://link.springer.com/article/10.1007/s10700-022-09387-y" target="_blank" rel="noopener">Link</a></div>
+          </li><li class="rounded-xl border border-slate-200 dark:border-slate-800 p-4 bg-white/60 dark:bg-slate-900/30"
+              data-tags=""
+              data-category="journal">
+            <div class="text-sm text-slate-500">
+              2022 — Journal
+            </div>
+
+            <div class="font-medium">Improved feature extraction of guided wave signals for defect detection in welded thermoplastic composite joints</div><div class="text-sm mt-1">Ferreira, G. R. B.; Ribeiro, M. G. C.; Kubrusly, A. C.; Ayala, H. V. H.</div><div class="text-sm mt-1 italic">Measurement</div><div class="mt-2 text-sm space-x-3"><a class="text-blue-600 hover:underline" href="https://doi.org/10.1016/j.measurement.2022.111372" target="_blank" rel="noopener">DOI</a><a class="text-blue-600 hover:underline" href="https://www.sciencedirect.com/science/article/abs/pii/S0263224122006066" target="_blank" rel="noopener">Link</a></div>
+          </li><li class="rounded-xl border border-slate-200 dark:border-slate-800 p-4 bg-white/60 dark:bg-slate-900/30"
+              data-tags=""
+              data-category="patent">
+            <div class="text-sm text-slate-500">
+              2022 — Patent
+            </div>
+
+            <div class="font-medium">Método para Avaliação de Defeitos na Camada de Cimento de Poços Baseado em Processamento de Imagem Originária da Perfilagem e Auxiliada por Aprendizado de Máquina</div><div class="text-sm mt-1">Ferreira, G. R. B.; Ribeiro, M. G. C.; Ayala, H. V. H.; et al.</div><div class="mt-2 text-sm space-x-3"></div>
+          </li><li class="rounded-xl border border-slate-200 dark:border-slate-800 p-4 bg-white/60 dark:bg-slate-900/30"
+              data-tags=""
+              data-category="journal">
+            <div class="text-sm text-slate-500">
+              2021 — Journal
+            </div>
+
+            <div class="font-medium">Modeling and predicting the backstroke to breaststroke turns performance in age-group swimmers</div><div class="text-sm mt-1">Chainok, P.; de Jesus, K.; Coelho, L.; Ayala, H. V. H.; Ribeiro, M. G. C.; Fernandes, R. J.; Vilas-Boas, J. P.</div><div class="text-sm mt-1 italic">Sports Biomechanics</div><div class="mt-2 text-sm space-x-3"><a class="text-blue-600 hover:underline" href="https://doi.org/10.1080/14763141.2021.2005127" target="_blank" rel="noopener">DOI</a><a class="text-blue-600 hover:underline" href="https://www.tandfonline.com/doi/abs/10.1080/14763141.2021.2005127" target="_blank" rel="noopener">Link</a></div>
+          </li><li class="rounded-xl border border-slate-200 dark:border-slate-800 p-4 bg-white/60 dark:bg-slate-900/30"
+              data-tags=""
+              data-category="journal">
+            <div class="text-sm text-slate-500">
+              2021 — Journal
+            </div>
+
+            <div class="font-medium">Machine Learning-Based Corrosion-Like Defect Estimation With Shear-Horizontal Guided Waves Improved by Mode Separation</div><div class="text-sm mt-1">Ribeiro, M. G. C.; Kubrusly, A. C.; Ayala, H. V. H.; Dixon, S.</div><div class="text-sm mt-1 italic">IEEE Access</div><div class="mt-2 text-sm space-x-3"><a class="text-blue-600 hover:underline" href="https://ieeexplore.ieee.org/stamp/stamp.jsp?tp=&arnumber=9369296" target="_blank" rel="noopener">PDF</a><a class="text-blue-600 hover:underline" href="https://doi.org/10.1109/ACCESS.2021.3063736" target="_blank" rel="noopener">DOI</a><a class="text-blue-600 hover:underline" href="https://ieeexplore.ieee.org/document/9369296" target="_blank" rel="noopener">Link</a></div>
+          </li><li class="rounded-xl border border-slate-200 dark:border-slate-800 p-4 bg-white/60 dark:bg-slate-900/30"
+              data-tags=""
+              data-category="conference">
+            <div class="text-sm text-slate-500">
+              2020 — Conference
+            </div>
+
+            <div class="font-medium">Analytical and numerical modeling of through-tubing acoustic logging</div><div class="text-sm mt-1">Correia, T. M.; de Souza, L. P. B.; Hidalgo, J. A. S.; Ribeiro, M. G. C.; Camerini, I. G.; de Sousa, B. G.; Kubrusly, A. C.; Ayala, H. V. H.; Batista, J. H. G.; de Almeida, R. V.</div><div class="text-sm mt-1 italic">Rio Oil & Gas Expo and Conference</div><div class="mt-2 text-sm space-x-3"><a class="text-blue-600 hover:underline" href="https://doi.org/10.48072/2525-7579.rog.2020.099" target="_blank" rel="noopener">DOI</a><a class="text-blue-600 hover:underline" href="https://www.researchgate.net/publication/348539452_Analytical_and_numerical_modeling_of_through-tubing_acoustic_logging" target="_blank" rel="noopener">Link</a></div>
+          </li><li class="rounded-xl border border-slate-200 dark:border-slate-800 p-4 bg-white/60 dark:bg-slate-900/30"
+              data-tags=""
+              data-category="conference">
+            <div class="text-sm text-slate-500">
+              2020 — Conference
+            </div>
+
+            <div class="font-medium">Damage Detection in Composite Plates with Ultrasonic Guided-waves and Nonlinear System Identification</div><div class="text-sm mt-1">Ribeiro, M. G. C.; Kubrusly, A. C.; Ayala, H. V. H.</div><div class="text-sm mt-1 italic">IEEE Symposium Series on Computational Intelligence (SSCI)</div><div class="mt-2 text-sm space-x-3"><a class="text-blue-600 hover:underline" href="https://doi.org/10.1109/SSCI47803.2020.9308212" target="_blank" rel="noopener">DOI</a><a class="text-blue-600 hover:underline" href="https://ieeexplore.ieee.org/document/9308212" target="_blank" rel="noopener">Link</a></div>
+          </li><li class="rounded-xl border border-slate-200 dark:border-slate-800 p-4 bg-white/60 dark:bg-slate-900/30"
+              data-tags=""
+              data-category="journal">
+            <div class="text-sm text-slate-500">
+              2019 — Journal
+            </div>
+
+            <div class="font-medium">An enhanced aircraft engine gas path diagnostic method based on upper and lower singleton type-2 fuzzy logic system</div><div class="text-sm mt-1">Calderano, P. H.; Ribeiro, M. G. C.; Amaral, R. P.; Vellasco, M. M.; Tanscheit, R.; de Aguiar, E. P.</div><div class="text-sm mt-1 italic">Journal of the Brazilian Society of Mechanical Sciences and Engineering</div><div class="mt-2 text-sm space-x-3"><a class="text-blue-600 hover:underline" href="https://doi.org/10.1007/s40430-019-1567-4" target="_blank" rel="noopener">DOI</a><a class="text-blue-600 hover:underline" href="https://doi.org/10.1007/s40430-019-1567-4" target="_blank" rel="noopener">Link</a></div>
+          </li><li class="rounded-xl border border-slate-200 dark:border-slate-800 p-4 bg-white/60 dark:bg-slate-900/30"
+              data-tags=""
+              data-category="conference">
+            <div class="text-sm text-slate-500">
+              2018 — Conference
+            </div>
+
+            <div class="font-medium">Detection and classification of faults in aeronautical gas turbine engine: a comparison between two fuzzy logic systems</div><div class="text-sm mt-1">Ribeiro, M. G. C.; Calderano, P. H. S.; Amaral, R. P. F.; de Menezes, I. F. M.; Tanscheit, R.; Vellasco, M. M. B. R.; de Aguiar, E. P.</div><div class="text-sm mt-1 italic">WCCI – IEEE International Conference on Fuzzy Systems (FUZZ-IEEE)</div><div class="mt-2 text-sm space-x-3"><a class="text-blue-600 hover:underline" href="https://doi.org/10.1109/FUZZ-IEEE.2018.8491444" target="_blank" rel="noopener">DOI</a><a class="text-blue-600 hover:underline" href="https://ieeexplore.ieee.org/document/8491444" target="_blank" rel="noopener">Link</a></div>
+          </li></ul>
+    </div>
+  </section>
+
+  <!-- CV & Experience -->
+<section id="cv" class="py-12">
+  <div class="mx-auto max-w-6xl px-4">
+    <h2 class="text-2xl md:text-3xl font-bold tracking-tight">CV & Experience</h2>
+    <div class="mt-6 grid gap-6 md:grid-cols-3">
+      <div class="rounded-2xl border border-slate-200 dark:border-slate-800 p-5 bg-white/60 dark:bg-slate-900/40">
+        <h3 class="font-semibold">Download</h3>
+        <p class="text-sm text-slate-600 dark:text-slate-300 mt-2">Latest CV (PDF) hosted in the repository.</p>
+        <a href="/CV/CV_Mateus_Gheorghe_de_Castro_Ribeiro_Mar_2025.pdf"
+           class="mt-3 inline-block rounded-xl bg-slate-900 text-white dark:bg-white dark:text-slate-900 px-4 py-2"
+           target="_blank" rel="noopener noreferrer">Open CV</a>
+      </div>
+
+      <div class="md:col-span-2 rounded-2xl border border-slate-200 dark:border-slate-800 p-5 bg-white/60 dark:bg-slate-900/40">
+        <ol class="relative border-s-l border-slate-200 dark:border-slate-800 ps-6">
+
+          <!-- Item 1 Stanford RA-->
+          <li class="mb-6">
+            <div class="absolute -start-1.5 mt-1.5 h-3 w-3 rounded-full bg-blue-600"></div>
+            <div class="flex items-start gap-3">
+              <img src="/Images/Logo_Stanford.png" alt="Stanford"
+                   class="shrink-0 h-16 w-16 md:h-20 md:w-20 rounded-xl object-contain bg-white p-2.5 ring-1 ring-slate-200 dark:bg-slate-900 dark:ring-slate-800"
+                   loading="lazy" width="32" height="32" />
+              <div>
+                <div class="text-sm text-slate-500">Sep-2022 — present</div>
+                <div class="font-medium"> Research Assistant — Stanford Sustainable Systems Lab (S3L) </div>
+                <div class="text-sm"> 24/7 Carbon-Free Electrified Campus Bus Fleet / Hierarchical microgrid for advanced power system resilience and reliability</div>
+              </div>
+            </div>
+          </li>
+
+          <!-- Item 2 ORISE/NPS Internship-->
+          <li class="mb-6">
+            <div class="absolute -start-1.5 mt-1.5 h-3 w-3 rounded-full bg-emerald-600"></div>
+            <div class="flex items-start gap-3">
+              <img src="/Images/orise_logo.jpeg" alt="ORISE"
+                   class="shrink-0 h-16 w-16 md:h-20 md:w-20 rounded-xl object-contain bg-white p-2.5 ring-1 ring-slate-200 dark:bg-slate-900 dark:ring-slate-800"
+                   loading="lazy" width="32" height="32" />
+              <div>
+                <div class="text-sm text-slate-500">Jul-2025 — Sep-2025</div>
+                <div class="font-medium">ORISE/NPS Internship</div>
+                <div class="text-sm">ORISE Scholar hosted at the Naval Postgraduate School (NPS) through the Oak Ridge Institute for Science and Education (a U.S. Department of Energy asset managed by ORAU); led design and planning of zonal microgrids for military bases.</div>
+              </div>
+            </div>
+          </li>
+
+          <!-- Item 3 Stanford TA-->
+          <li class="mb-6">
+            <div class="absolute -start-1.5 mt-1.5 h-3 w-3 rounded-full bg-blue-600"></div>
+            <div class="flex items-start gap-3">
+              <img src="/Images/Logo_Stanford.png" alt="Stanford"
+                   class="shrink-0 h-16 w-16 md:h-20 md:w-20 rounded-xl object-contain bg-white p-2.5 ring-1 ring-slate-200 dark:bg-slate-900 dark:ring-slate-800"
+                   loading="lazy" width="32" height="32" />
+              <div>
+                <div class="text-sm text-slate-500">Spring 2024 and Spring 2025</div>
+                <div class="font-medium"> Teaching Assistant — CEE 272R Engineering Future Electricity Systems </div>
+                <div class="text-sm"> <ul>
+                  <li>Led weekly sections; held office hours; designed and graded assignments.</li>
+                  <li>Mentored team projects on renewable integration, microgrids/V2G, and grid optimization (DC-OPF, battery dispatch).</li>
+                  <li>Developed example notebooks and evaluation rubrics to support consistent, rigorous learning.</li>
+                  </ul>
+                </div>
+              </div>
+            </div>
+          </li>
+
+          <!-- Item 4 BSV-->
+          <li class="mb-6">
+            <div class="absolute -start-1.5 mt-1.5 h-3 w-3 rounded-full bg-emerald-600"></div>
+            <div class="flex items-start gap-3">
+              <img src="/Images/logo_bsv.jpeg" alt="BSV"
+                   class="shrink-0 h-16 w-16 md:h-20 md:w-20 rounded-xl object-contain bg-white p-2.5 ring-1 ring-slate-200 dark:bg-slate-900 dark:ring-slate-800"
+                   loading="lazy" width="32" height="32" />
+              <div>
+                <div class="text-sm text-slate-500"> Oct 2023 — Oct 2025 </div>
+                <div class="font-medium">Operations Leader (2025) / Member (2024) - Brazil at Silicon Valley </div>
+                <div class="text-sm">Student-led nonprofit connecting Brazilian leaders with Silicon Valley; organized a 500+ attendee annual conference, where I led all logistics and operations.</div>
+              </div>
+            </div>
+          </li>
+
+          <!-- Item 5 Google X-->
+          <li class="mb-6">
+            <div class="absolute -start-1.5 mt-1.5 h-3 w-3 rounded-full bg-blue-600"></div>
+            <div class="flex items-start gap-3">
+              <img src="/Images/x_logo.jpeg" alt="Google X"
+                   class="shrink-0 h-16 w-16 md:h-20 md:w-20 rounded-xl object-contain bg-white p-2.5 ring-1 ring-slate-200 dark:bg-slate-900 dark:ring-slate-800"
+                   loading="lazy" width="32" height="32" />
+              <div>
+                <div class="text-sm text-slate-500">Jul-2024 — Sep-2024</div>
+                <div class="font-medium"> AI/Optimization Resident - X, the moonshot factory - Tapestry </div>
+                <div class="text-sm"> AI/Optimization Resident at X (formely Google X) working on Tapestry - a moonshot for decarbonizing the electrical grid. </div>
+              </div>
+            </div>
+          </li>
+
+          <!-- Item 6 Fulbright Award-->
+          <li class="mb-6">
+            <div class="absolute -start-1.5 mt-1.5 h-3 w-3 rounded-full bg-emerald-600"></div>
+            <div class="flex items-start gap-3">
+              <img src="/Images/fulbright_logo.png" alt="Stanford"
+                   class="shrink-0 h-16 w-16 md:h-20 md:w-20 rounded-xl object-contain bg-white p-2.5 ring-1 ring-slate-200 dark:bg-slate-900 dark:ring-slate-800"
+                   loading="lazy" width="32" height="32" />
+              <div>
+                <div class="text-sm text-slate-500">Sep-2022 — Present</div>
+                <div class="font-medium"> Fulbright/CAPES Scholarship award</div>
+                <div class="text-sm"> Awarded the prestigious Fulbright–CAPES Scholarship for Brazilian students to pursue a full PhD in the U.S.; selected as one of 15 recipients nationwide.</div>
+              </div>
+            </div>
+          </li>
+
+          <!-- Item 7 R&D Engineer-->
+          <li class="mb-6">
+            <div class="absolute -start-1.5 mt-1.5 h-3 w-3 rounded-full bg-blue-600"></div>
+            <div class="flex items-start gap-4">
+              <img src="/Images/Logo_PUC.png" alt="PUC-Rio"
+                   class="shrink-0 h-16 w-16 md:h-20 md:w-20 rounded-xl object-contain bg-white p-2.5 ring-1 ring-slate-200 dark:bg-slate-900 dark:ring-slate-800"
+                   loading="lazy" width="56" height="56" />
+              <div>
+                <div class="text-sm text-slate-500">Aug-2019 — Jul-2022</div>
+                <div class="font-medium">R&D Engineer — LSFO (PUC-Rio)</div>
+                <div class="text-sm">Developed ML/data pipelines and ran lab/field experiments; results in papers, patents, and technical reports.</div>
+              </div>
+            </div>
+          </li>
+
+          <!-- Item 8 -->
+          <li class="mb-6">
+<!--            <div class="absolute -start-1.5 mt-1.5 h-3 w-3 rounded-full bg-fuchsia-600"></div>-->
+          <div class="flex items-start gap-4">
+            <div>
+              <div class="font-medium">More experience & details</div>
+              <div class="text-sm">See teaching, awards, industry roles, and full history in my CV.</div>
+              <a href="/CV/CV_Mateus_Gheorghe_de_Castro_Ribeiro_Mar_2025.pdf"
+                 class="mt-2 inline-flex items-center gap-2 text-sm rounded-xl border border-slate-200 dark:border-slate-700 px-3 py-1.5 hover:bg-slate-100 dark:hover:bg-slate-900"
+                 target="_blank" rel="noopener noreferrer">
+                See full CV
+                <svg class="h-4 w-4" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                  <path d="M7 17L17 7M7 7h10v10" />
+                </svg>
+              </a>
+            </div>
+          </div>
+
+          </li>
+<!--          &lt;!&ndash; Template for more roles &ndash;&gt;-->
+<!--          <li>-->
+<!--            <div class="absolute -start-1.5 mt-1.5 h-3 w-3 rounded-full bg-fuchsia-600"></div>-->
+<!--            <div class="flex items-start gap-3">-->
+<!--              <img src="/Images/logos/placeholder.png" alt="Organization"-->
+<!--                   class="h-8 w-8 rounded-md object-contain bg-white p-1 ring-1 ring-slate-200 dark:bg-slate-900 dark:ring-slate-800"-->
+<!--                   loading="lazy" width="32" height="32" />-->
+<!--              <div>-->
+<!--                <div class="text-sm text-slate-500">…</div>-->
+<!--                <div class="font-medium">More roles</div>-->
+<!--                <div class="text-sm">Add other positions, teaching, awards, etc.</div>-->
+<!--              </div>-->
+<!--            </div>-->
+<!--          </li>-->
+        </ol>
+      </div>
+    </div>
+  </div>
+</section>
+
+  <!-- Contact -->
+  <section id="contact" class="py-12 border-t border-slate-200/70 dark:border-slate-800">
+    <div class="mx-auto max-w-6xl px-4">
+      <h2 class="text-2xl md:text-3xl font-bold tracking-tight">Contact</h2>
+      <div class="mt-6 grid gap-6 md:grid-cols-2">
+        <div class="rounded-2xl border border-slate-200 dark:border-slate-800 p-5 bg-white/60 dark:bg-slate-900/40">
+          <p class="text-slate-600 dark:text-slate-300">Best way to reach me:</p>
+          <ul class="mt-3 space-y-2">
+            <li>
+              <a class="inline-flex items-center gap-2 hover:underline" href="mailto:mateusgh@stanford.edu">
+                <svg class="h-5 w-5" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5"><path d="M4 4h16v16H4z"/><path d="m22 6-10 7L2 6"/></svg>
+                mateusgh@stanford.edu
+              </a>
+            </li>
+            <li>
+              <a class="inline-flex items-center gap-2 hover:underline" href="https://github.com/MateusGheorghe" target="_blank" rel="noreferrer">
+                <svg class="h-5 w-5" viewBox="0 0 24 24" fill="currentColor"><path d="M12 2C6.48 2 2 6.58 2 12.26c0 4.52 2.87 8.35 6.84 9.71.5.1.68-.22.68-.49 0-.24-.01-.87-.01-1.7-2.78.62-3.37-1.37-3.37-1.37-.45-1.18-1.1-1.5-1.1-1.5-.9-.63.07-.62.07-.62 1 .07 1.52 1.05 1.52 1.05.89 1.56 2.33 1.11 2.9.85.09-.66.35-1.11.63-1.36-2.22-.26-4.56-1.14-4.56-5.08 0-1.12.39-2.03 1.03-2.75-.1-.26-.45-1.31.1-2.73 0 0 .84-.27 2.75 1.05A9.3 9.3 0 0 1 12 7.5c.86 0 1.73.12 2.54.35 1.9-1.32 2.74-1.05 2.74-1.05.55 1.42.2 2.47.1 2.73.64.72 1.03 1.63 1.03 2.75 0 3.95-2.34 4.81-4.57 5.07.36.32.67.95.67 1.92 0 1.39-.01 2.51-.01 2.85 0 .27.18.59.69.49A10.05 10.05 0 0 0 22 12.26C22 6.58 17.52 2 12 2Z"/></svg>
+                GitHub @MateusGheorghe
+              </a>
+            </li>
+            <li>
+              <a class="inline-flex items-center gap-2 hover:underline" href="https://www.linkedin.com/in/mateus-gheorghe-de-castro-ribeiro/" target="_blank" rel="noreferrer">
+                <svg class="h-5 w-5" viewBox="0 0 24 24" fill="currentColor"><path d="M4.98 3.5C4.98 4.88 3.86 6 2.5 6S0 4.88 0 3.5 1.12 1 2.5 1s2.48 1.12 2.48 2.5ZM.5 8.5h4V24h-4V8.5Zm7 0h3.8v2.1h.1c.53-1 1.83-2.1 3.77-2.1C20.57 8.5 22 11 22 14.66V24h-4v-7.75c0-1.85-.03-4.23-2.58-4.23-2.58 0-2.98 2.02-2.98 4.1V24h-4V8.5Z"/></svg>
+                LinkedIn
+              </a>
+            </li>
+          </ul>
+        </div>
+        <form
+        id="contactForm"
+        class="rounded-2xl border border-slate-200 dark:border-slate-800 p-5 bg-white/60 dark:bg-slate-900/40"
+        action="https://formsubmit.co/mateusgh@stanford.edu"
+        method="POST"
+        accept-charset="UTF-8">
+        <!-- Anti-spam honeypot -->
+        <input type="text" name="_honey" class="hidden" tabindex="-1" autocomplete="off" />
+
+        <!-- Options (optional) -->
+        <input type="hidden" name="_captcha" value="false">
+        <input type="hidden" name="_subject" value="New message from mateusgheorghe.github.io">
+        <input type="hidden" name="_template" value="table">
+
+        <div class="grid gap-3">
+          <div class="grid gap-1">
+            <label class="text-sm" for="name">Name</label>
+            <input class="rounded-xl border border-slate-200 dark:border-slate-700 bg-white/60 dark:bg-slate-900/30 px-3 py-2"
+                   id="name" name="name" required />
+          </div>
+
+          <div class="grid gap-1">
+            <label class="text-sm" for="email">Email</label>
+            <input class="rounded-xl border border-slate-200 dark:border-slate-700 bg-white/60 dark:bg-slate-900/30 px-3 py-2"
+                   id="email" name="email" type="email" required />
+          </div>
+
+          <div class="grid gap-1">
+            <label class="text-sm" for="message">Message</label>
+            <textarea class="rounded-xl border border-slate-200 dark:border-slate-700 bg-white/60 dark:bg-slate-900/30 px-3 py-2"
+                      id="message" name="message" rows="4" required></textarea>
+          </div>
+
+          <button id="contactSubmit"
+                  class="mt-2 inline-flex items-center justify-center rounded-xl bg-blue-600 px-4 py-2 text-white shadow-soft hover:bg-blue-700">
+            Send
+          </button>
+
+          <!-- Inline status message (screen-reader friendly) -->
+          <p id="formStatus" class="text-xs text-slate-500" role="status" aria-live="polite"></p>
+        </div>
+      </form>
+
+      </div>
+    </div>
+  </section>
+
+  <footer class="py-10">
+    <div class="mx-auto max-w-6xl px-4 flex flex-col sm:flex-row items-center justify-between gap-4 text-sm text-slate-500">
+      <div>© <span id="year"></span> Mateus G. de Castro Ribeiro</div>
+      <div class="flex items-center gap-3">
+        <a class="hover:underline" href="#publications">Publications page</a>
+        <span class="hidden sm:inline">•</span>
+        <a class="hover:underline" href="#home">About</a>
+        <span class="hidden sm:inline">•</span>
+        <a class="hover:underline" href="#cv">Work Experience</a>
+      </div>
+    </div>
+  </footer>
+
+  <script>
+    // email form
+    (function () {
+    const form = document.getElementById('contactForm');
+    const statusEl = document.getElementById('formStatus');
+    const btn = document.getElementById('contactSubmit');
+    if (!form) return;
+
+    form.addEventListener('submit', async (e) => {
+      e.preventDefault();
+      const original = btn.textContent;
+      btn.disabled = true; btn.textContent = 'Sending…';
+      statusEl.textContent = '';
+
+      try {
+        const res = await fetch(form.action, {
+          method: 'POST',
+          body: new FormData(form),
+          headers: { 'Accept': 'application/json' }
+        });
+
+        if (res.ok) {
+          form.reset();
+          statusEl.textContent = 'Thanks! Your message was sent.';
+          btn.textContent = 'Sent 🎉';
+        } else {
+          statusEl.textContent = 'Something went wrong. Please try again or email me directly.';
+          btn.textContent = 'Try again';
+        }
+      } catch (err) {
+        statusEl.textContent = 'Network error. Please try again or email me directly.';
+        btn.textContent = 'Try again';
+      } finally {
+        setTimeout(() => { btn.disabled = false; btn.textContent = original; }, 3000);
+      }
+    });
+  })();
+    // Theme persistence
+    const root = document.documentElement;
+    const saved = localStorage.getItem('theme');
+    if (saved === 'dark' || (!saved && window.matchMedia('(prefers-color-scheme: dark)').matches)) {
+      root.classList.add('dark');
+    }
+    document.getElementById('themeToggle').addEventListener('click', () => {
+      root.classList.toggle('dark');
+      localStorage.setItem('theme', root.classList.contains('dark') ? 'dark' : 'light');
+    });
+
+    // Mobile menu
+    const menuBtn = document.getElementById('menuBtn');
+    const mobileNav = document.getElementById('mobileNav');
+    menuBtn.addEventListener('click', () => {
+      const open = mobileNav.classList.toggle('hidden');
+      menuBtn.setAttribute('aria-expanded', String(!open));
+    });
+
+    // Publications filter
+    const pubFilter = document.getElementById('pubFilter');
+    const pubList = document.getElementById('pubList');
+    pubFilter.addEventListener('input', () => {
+      const q = pubFilter.value.toLowerCase();
+      for (const li of pubList.querySelectorAll('li')) {
+        li.style.display = li.textContent.toLowerCase().includes(q) || (li.dataset.tags||'').includes(q) ? '' : 'none';
+      }
+    });
+
+    // Year
+    document.getElementById('year').textContent = new Date().getFullYear();
+  </script>
+</body>
 </html>
-
-
-
-  

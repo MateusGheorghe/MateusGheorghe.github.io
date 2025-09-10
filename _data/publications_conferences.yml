@@ -1,0 +1,58 @@
+- title: "Towards a 24/7 Carbon-Free Electric Fleet: A Digital Twin Framework"
+  authors:
+    - "Ribeiro, M. G. C."
+    - "Luke, J."
+    - "Martin, S."
+    - "Balogun, E."
+    - "Cezar, G. V."
+    - "Pavone, M."
+    - "Rajagopal, R."
+  venue: "International Conference on Applied Energy (ICAE)"
+  year: 2023
+  doi: "10.46855/energy-proceedings-11033"
+  url: "https://www.energy-proceedings.org/towards-a-24-7-carbon-free-electric-fleet%3A-a-digital-twin-framework/"
+#  pdf: "https://www.energy-proceedings.org/wp-content/uploads/icae2023/1704008515.pdf"
+  highlight: true
+
+- title: "Damage Detection in Composite Plates with Ultrasonic Guided-waves and Nonlinear System Identification"
+  authors:
+    - "Ribeiro, M. G. C."
+    - "Kubrusly, A. C."
+    - "Ayala, H. V. H."
+  venue: "IEEE Symposium Series on Computational Intelligence (SSCI)"
+  year: 2020
+  doi: "10.1109/SSCI47803.2020.9308212"
+  url: "https://ieeexplore.ieee.org/document/9308212"
+#  pdf: "https://ieeexplore.ieee.org/stamp/stamp.jsp?tp=&arnumber=9308212"
+
+- title: "Analytical and numerical modeling of through-tubing acoustic logging"
+  authors:
+    - "Correia, T. M."
+    - "de Souza, L. P. B."
+    - "Hidalgo, J. A. S."
+    - "Ribeiro, M. G. C."
+    - "Camerini, I. G."
+    - "de Sousa, B. G."
+    - "Kubrusly, A. C."
+    - "Ayala, H. V. H."
+    - "Batista, J. H. G."
+    - "de Almeida, R. V."
+  venue: "Rio Oil & Gas Expo and Conference"
+  year: 2020
+  doi: "10.48072/2525-7579.rog.2020.099"
+  url: "https://www.researchgate.net/publication/348539452_Analytical_and_numerical_modeling_of_through-tubing_acoustic_logging"
+
+- title: "Detection and classification of faults in aeronautical gas turbine engine: a comparison between two fuzzy logic systems"
+  authors:
+    - "Ribeiro, M. G. C."
+    - "Calderano, P. H. S."
+    - "Amaral, R. P. F."
+    - "de Menezes, I. F. M."
+    - "Tanscheit, R."
+    - "Vellasco, M. M. B. R."
+    - "de Aguiar, E. P."
+  venue: "WCCI – IEEE International Conference on Fuzzy Systems (FUZZ-IEEE)"
+  year: 2018
+  doi: "10.1109/FUZZ-IEEE.2018.8491444"
+  url: "https://ieeexplore.ieee.org/document/8491444"
+#  pdf: "https://ieeexplore.ieee.org/stamp/stamp.jsp?tp=&arnumber=8491444"

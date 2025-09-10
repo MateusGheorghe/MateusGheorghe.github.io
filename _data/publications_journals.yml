@@ -1,0 +1,119 @@
+- title: "Optimal coordination of electric buses and battery storage for achieving a 24/7 carbon-free electrified fleet"
+  authors:
+    - "Luke, J."
+    - "Ribeiro, M. G. C."
+    - "Martin, S."
+    - "Balogun, E."
+    - "Cezar, G. V."
+    - "Pavone, M."
+    - "Rajagopal, R."
+  venue: "Applied Energy"
+  year: 2025
+  doi: "10.1016/j.apenergy.2024.124506"
+  url: "https://www.sciencedirect.com/science/article/pii/S0306261924018890"
+  highlight: true
+
+- title: "Supervised Machine Learning Models for Mechanical Properties Prediction in Additively Manufactured Composites"
+  authors:
+    - "Prada Parra, D. P."
+    - "Ferreira, G. R. B."
+    - "Díaz, J. G."
+    - "Ribeiro, M. G. C."
+    - "Braga, A. M. B."
+  venue: "Applied Sciences"
+  year: 2024
+  doi: "10.3390/app14167009"
+  url: "https://www.mdpi.com/2076-3417/14/16/7009"
+  pdf: "https://www.mdpi.com/2076-3417/14/16/7009/pdf?download=1"
+
+- title: "Machine learning-based evaluation of eccentricity and acoustic impedance in oil well using VDL data"
+  authors:
+    - "Ribeiro, M. G. C."
+    - "Ferreira, G. R. B."
+    - "Parente, L. E. R."
+    - "Batista, J. H. G."
+    - "Kubrusly, A. C."
+    - "Ayala, H. V. H."
+    - "Braga, A. M. B."
+  venue: "Geoenergy Science and Engineering"
+  year: 2023
+  doi: "10.1016/j.geoen.2023.212288"
+  url: "https://www.sciencedirect.com/science/article/pii/S2949891023008758"
+
+- title: "Machine learning-based cement integrity evaluation with a through-tubing logging experimental setup"
+  authors:
+    - "de Souza, L. P. B."
+    - "Ferreira, G. R. B."
+    - "Camerini, I. G."
+    - "de Magalhães Correia, T."
+    - "Ribeiro, M. G. C."
+    - "Hidalgo, J. A. S."
+    - "..."
+    - "Batista, J. H. G."
+  venue: "Geoenergy Science and Engineering"
+  year: 2023
+  doi: "10.1016/j.geoen.2023.211882"
+  url: "https://www.sciencedirect.com/science/article/pii/S2949891023004694"
+
+- title: "Improved feature extraction of guided wave signals for defect detection in welded thermoplastic composite joints"
+  authors:
+    - "Ferreira, G. R. B."
+    - "Ribeiro, M. G. C."
+    - "Kubrusly, A. C."
+    - "Ayala, H. V. H."
+  venue: "Measurement"
+  year: 2022
+  doi: "10.1016/j.measurement.2022.111372"
+  url: "https://www.sciencedirect.com/science/article/abs/pii/S0263224122006066"
+
+- title: "Type-1 and Singleton Fuzzy Logic System Binary Classifier Trained by the BFGS Optimization Method"
+  authors:
+    - "Calderano, P. H. S."
+    - "Ribeiro, M. G. C."
+    - "Teixeira, R. S."
+    - "Amaral, R. P. F."
+    - "de Menezes, I. F. M."
+  venue: "Fuzzy Optimization and Decision Making"
+  year: 2022
+  doi: "10.1007/s10700-022-09387-y"
+  url: "https://link.springer.com/article/10.1007/s10700-022-09387-y"
+
+- title: "Machine Learning-Based Corrosion-Like Defect Estimation With Shear-Horizontal Guided Waves Improved by Mode Separation"
+  authors:
+    - "Ribeiro, M. G. C."
+    - "Kubrusly, A. C."
+    - "Ayala, H. V. H."
+    - "Dixon, S."
+  venue: "IEEE Access"
+  year: 2021
+  doi: "10.1109/ACCESS.2021.3063736"
+  url: "https://ieeexplore.ieee.org/document/9369296"
+  pdf: "https://ieeexplore.ieee.org/stamp/stamp.jsp?tp=&arnumber=9369296"
+  highlight: true
+
+- title: "Modeling and predicting the backstroke to breaststroke turns performance in age-group swimmers"
+  authors:
+    - "Chainok, P."
+    - "de Jesus, K."
+    - "Coelho, L."
+    - "Ayala, H. V. H."
+    - "Ribeiro, M. G. C."
+    - "Fernandes, R. J."
+    - "Vilas-Boas, J. P."
+  venue: "Sports Biomechanics"
+  year: 2021
+  doi: "10.1080/14763141.2021.2005127"
+  url: "https://www.tandfonline.com/doi/abs/10.1080/14763141.2021.2005127"
+
+- title: "An enhanced aircraft engine gas path diagnostic method based on upper and lower singleton type-2 fuzzy logic system"
+  authors:
+    - "Calderano, P. H."
+    - "Ribeiro, M. G. C."
+    - "Amaral, R. P."
+    - "Vellasco, M. M."
+    - "Tanscheit, R."
+    - "de Aguiar, E. P."
+  venue: "Journal of the Brazilian Society of Mechanical Sciences and Engineering"
+  year: 2019
+  doi: "10.1007/s40430-019-1567-4"
+  url: "https://doi.org/10.1007/s40430-019-1567-4"
